@@ -1,0 +1,15 @@
+[project]
+name = "credit-invoice-summariser"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "polars[pandas]>=1.38.1",
+    "tabula-py>=2.10.0",
+]
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.19.0",
+]
