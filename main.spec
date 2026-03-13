@@ -4,7 +4,7 @@
 a = Analysis(
     ['main.py'],
     pathex=[],
-    binaries=[('../.venv/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar', './tabula/')],
+    binaries=[('.venv/Lib/site-packages/tabula/tabula-1.0.5-jar-with-dependencies.jar', './tabula/')],
     datas=[],
     hiddenimports=[],
     hookspath=[],
@@ -23,7 +23,7 @@ exe = EXE(
     a.datas,
     [],
     name='main',
-    debug='bootloader',
+    debug=[],
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
